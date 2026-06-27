@@ -8,14 +8,21 @@
       content="村本 玲司（Reiji Muramoto）の個人ウェブサイトです。"
     >
     <title>村本 玲司（Reiji Muramoto）</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    >
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#top">村本 玲司</a>
+      <a class="brand" href="#top">村本 玲司<br> (Reiji Muramoto)</a>
       <nav class="nav" aria-label="Main navigation">
-        <a href="#about">About</a>
-        <a href="#work">Work</a>
+        <a href="#top">Top</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
@@ -23,36 +30,46 @@
     <main id="top">
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-content">
-          <p class="eyebrow">Personal website</p>
-          <h1 id="hero-title">村本 玲司<br><span>Reiji Muramoto</span></h1>
-          <p class="lead">
-            研究、制作、活動の記録をまとめるための個人ウェブサイトです。
-          </p>
-          <div class="hero-actions">
-            <a class="button primary" href="#work">活動を見る</a>
-            <a class="button secondary" href="#contact">連絡先</a>
+          <div class="hero-title-block">
+          <h1 id="hero-title">村本 玲司 (Reiji Muramoto)</h1>
+            <p class="hero-role">Robotics Researcher / Engineer</p>
+          </div>
+          <div class="hero-media">
+            <img src="fig/headshot.jpg" alt="学部卒業">
+          </div>
+          <div class="hero-copy">
+            <p class="lead">
+              <h2>Affiliation</h2>
+              東京科学大学（旧 東京工業大学）大学院 工学院 機械系 機械コース<br>
+              菅原研究室 博士後期課程1年
+
+              <h2>Education</h2>
+              2020年3月 埼玉県立川越高等学校 卒業<br>
+              2024年3月 東京工業大学 工学院 機械系 学士課程 卒業（当時の所属：鈴森研究室）<br>
+              2026年3月 東京科学大学大学院 工学院 機械系 機械コース 修士課程 修了
+
+              <h2>Publications</h2>
+              東京科学大学における研究業績は
+              <a href="https://t2r2.star.titech.ac.jp/cgi-bin/researcherpublicationlist.cgi?q_researcher_content_number=b9a0c7edd78d4f2c6b50489a556e20a9">こちら</a>
+            </p>
           </div>
         </div>
       </section>
 
-      <section id="about" class="section">
+      <section id="skills" class="section">
         <div class="section-heading">
-          <p class="eyebrow">About</p>
-          <h2>プロフィール</h2>
+          <h2>Skills</h2>
         </div>
-        <div class="text-block">
-          <p>
-            ここに自己紹介を書きます。専門分野、関心、所属、これまでの活動などを
-            2から4文程度でまとめると、初めて訪れた人にも伝わりやすくなります。
-          </p>
-        </div>
+        準備中です
       </section>
 
-      <section id="work" class="section muted">
+      <section id="experience" class="section muted">
         <div class="section-heading">
-          <p class="eyebrow">Work</p>
-          <h2>活動・制作</h2>
+          <!-- <p class="eyebrow">Work</p> -->
+          <h2>Experience</h2>
         </div>
+        準備中です
+      <!--
         <div class="work-grid">
           <article class="work-card">
             <p class="card-label">Project</p>
@@ -76,24 +93,27 @@
             </p>
           </article>
         </div>
+      -->
       </section>
 
       <section id="contact" class="section">
         <div class="section-heading">
-          <p class="eyebrow">Contact</p>
-          <h2>連絡先</h2>
+          <!-- <p class="eyebrow">Contact</p> -->
+          <h2>Contact</h2>
         </div>
         <div class="text-block">
           <p>
-            メールアドレス、GitHub、X、LinkedIn、所属ページなど、公開してよい連絡先を
-            ここに追加します。
+            〒152-8550 東京都目黒区大岡山2-12-1 石川台5号館2階206号室<br>
+            Mail: muramoto.r.3349 [at] m.isct.ac.jp
           </p>
         </div>
       </section>
+
     </main>
 
     <footer class="site-footer">
-      <p>&copy; 2026 Reiji Muramoto</p>
+      <p>&copy; 2026 Reiji Muramoto.
+        Last Updated: <time datetime="2026-06-28">2026/06/28</time></p>
     </footer>
   </body>
 </html>
